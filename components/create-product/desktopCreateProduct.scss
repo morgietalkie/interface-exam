@@ -1,0 +1,93 @@
+@media only screen and (min-width: 1000px) {
+  .createProductContainer {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+
+    .create-product {
+      margin: unset;
+      margin-right: auto;
+      box-shadow: -18px 0px 11px 20px #00000029;
+      padding-top: 10px;
+      height: calc(100vh - 70px);
+      overflow: scroll;
+      z-index: 2;
+      position: relative;
+    }
+  }
+
+  // VARIANTS
+
+  .variantWindow {
+    position: fixed;
+    left: 400px;
+    z-index: 99;
+    width: 350px;
+    padding: 20px 30px;
+    background-color: var(--off-white);
+    text-align: left;
+    height: calc(100vh - 70px);
+    top: 70px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s;
+    transition-property: opacity, left;
+  }
+
+  .displayVariantWindow {
+    opacity: 1;
+    left: 405px;
+    pointer-events: all;
+  }
+  .overlay {
+    width: calc(100vw - 300px);
+    height: 100vh;
+    left: 405px;
+    background-color: rgba(0, 0, 0, 0.596);
+    position: fixed;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    transition: 0.2s;
+  }
+
+  .displayOverlay {
+    opacity: 1;
+  }
+
+  // ERROR
+
+  // ERROR MESSAGE
+
+  .errorMessage {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 50px;
+    background-color: white;
+    margin: 0;
+    border-radius: 3px;
+    box-shadow: var(--primary-shadow);
+    pointer-events: none;
+    background-color: rgb(230, 70, 70);
+    color: white;
+    opacity: 1;
+    position: fixed;
+    top: auto;
+    bottom: 40px;
+    right: 50px;
+    left: auto;
+    transform: translate(0, 20px);
+    opacity: 0;
+    transition: 0.2s;
+    transition-property: opacity, transform;
+
+    svg {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+
+  .displayError {
+    opacity: 1;
+    transform: translate(0, 0px);
+  }
+}

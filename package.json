@@ -1,0 +1,36 @@
+{
+  "name": "mylocal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "arangojs": "^7.2.0",
+    "axios": "^0.21.0",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "cors": "^2.8.5",
+    "cruddl": "^1.2.4",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "next": "10.0.0",
+    "next-images": "^1.6.2",
+    "node-sass": "^4.14.1",
+    "query-string": "5",
+    "react": "17.0.1",
+    "react-color": "2.17.3",
+    "react-confetti": "^6.0.0",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
+    "react-images-uploading": "^3.1.2"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/morgietalkie/MyLocal.git",
+  "author": "<morgangr01@gmail.com>",
+  "license": "MIT"
+}

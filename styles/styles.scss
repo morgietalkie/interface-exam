@@ -1,0 +1,15 @@
+// Components
+
+@import "/styles/sass/components/layout.scss";
+@import "/styles/sass/components/general.scss";
+@import "/styles/sass/components/header.scss";
+@import "/styles/sass/components/footer.scss";
+
+// Pages
+@import "/styles/sass/pages/page.scss";
+
+// Create products
+@import "../components/create-product/mobileCreateProduct.scss";
+@import "../components/create-product/desktopCreateProduct.scss";
+@import "../components/create-product/preview.scss";
+@import "../components/create-product/imageUploader.scss";

@@ -1,0 +1,50 @@
+@font-face {
+  font-family: bebas-neue-pro, plantin;
+  font-display: block;
+}
+
+:root {
+  --brand-color: #0a6813;
+  --off-white: #f6f8f9;
+  --off-black: #1d1d1d;
+  --light-gray: #ebeded;
+  --dark-gray: #343638;
+
+  --primary-shadow: #00000028 0px 0px 5px;
+
+  --sans-font: helvetica-neue;
+  --serif-font: plantin;
+}
+
+*,
+h1,
+h2,
+h3,
+h4 {
+  font-family: bebas-neue-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: var(--dark-gray);
+}
+
+.greenButton {
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 3px;
+  padding: 7px 15px;
+  font-weight: 600 !important;
+  color: white;
+  box-shadow: var(--primary-shadow);
+
+  svg {
+    vertical-align: middle;
+  }
+
+  path {
+    fill: white;
+  }
+}
+
+* {
+  outline-color: var(--brand-color);
+}

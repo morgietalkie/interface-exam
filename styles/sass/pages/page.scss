@@ -1,0 +1,21 @@
+.content {
+  min-height: calc(100vh - 200px);
+  text-align: center;
+  padding-top: 70px;
+}
+
+.content ul {
+  max-width: 1000px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 10px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.content li {
+  min-height: 400px;
+}
